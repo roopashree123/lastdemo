@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+
+<style>
+c:hover
+{
+background-color:green;
+}
+
+
+divv
+{
+width:100px;
+height:100px;
+background:white;
+position:relative;
+animation-name:mymove;
+animation-duration:5s;
+
+/* Safari and Chrome */
+-webkit-animation-name:mymove;
+-webkit-animation-duration:5s;
+}
+
+@keyframes mymove
+{
+from {left:0px;}
+to {left:200px;}
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+from {left:0px;}
+to {left:200px;}
+}
+</style>
+
+
+</head>
+
+<body>
+<table id="maintable" width="999"  height="363" border="1" bgcolor="#FFFFFF" align="center">
+  <tr>
+    <td>
+	
+<div class="container">
+<header class="header">
+<div class="row">
+	<h1 class="span6"><a href="index.html" title="bootstrap free business website template">
+	<%= link_to (image_tag "logo.PNG", :title => "secrh")%> </a></h1>
+	<div class="span6"><div class="pull-right"><br/> <a class="pull-right" href="mailto: info@bootstrappage.com"><small> E: www.onevega.com</small></a><strong><small> <br/> <c>Call (24/7) :  1234567894 </c></small></strong></div></div>
+</div>
+</header>
+
+  <!-- Navbar
+    ================================================== -->
+  <!-- ======================================================================================================================== -->
+
+ 
+<div id="myCarousel" class="carousel slide homCar">
+		<div class="carousel-inner" style="border-top:18px solid #222; border-bottom:1px solid #222; border-radius:14px;">
+		  <div class="item active">
+			<!-- <img src="assets/bbaner.PNG" alt="#" style="min-height:250px; min-width:100%"/> -->
+			<%= link_to (image_tag "1234.PNG", :title => "secrh")%> 
+			<div class="carousel-caption" style="height:1px">
+				  <h4>We work for you </h4>
+				 
+			</div>
+		  </div>
+		  <div class="item">
+			<%= link_to (image_tag "12.PNG", :title => "secrh")%> 
+			<div class="carousel-caption">
+				  <h4>We work for you </h4>
+				  
+			</div>
+		  </div>
+		  <div class="item">
+				<%= link_to (image_tag "13.PNG", :title => "secrh")%> 
+			<div class="carousel-caption">
+				  <h4>We work for you </h4>
+				  
+			</div>
+		  </div>
+		</div>
+	<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+	<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+</div>
+
+
+<div class="row" style="text-align:center" >
+
+
+
+			<div class="span2">
+			
+				<div class="well well-small" >
+					<h4> 
+   <ul class="dropv">
+   <li>Coupons 
+    <ul>
+      <li><a href="#">Link one</a></li>
+      <li><a href="#">Link two</a></li>
+      <li><a href="#">Link three</a></li>		
+     </ul>
+    </li>
+   </ul>			
+ 		 </c></h4>
+					<a href="details.html"><small> <c>view details </c></small></a>
+
+				</div>
+			
+			</div>
+
+			</a>
+	
+				
+			
+			<div class="span2">
+				<div class="well well-small">
+					<h4>Kidswear </h4>
+					
+					 <%= link_to "view details", kids_path %>
+				</div>
+			</div>
+			<div class="span2">
+				<div class="well well-small">
+					<h4>Menswear </h4>
+					<%= link_to "view details", menjersey_path %>
+				</div>
+			</div>
+			<div class="span2">
+				<div class="well well-small">
+					<h4>Categories</h4>
+					<%= link_to "view details", categories_path %> 
+				</div>
+			</div>
+			<div class="span2">
+				<div class="well well-small">
+					<h4>Stores</h4>
+					<%= link_to "view details", 'jersey_path' %>
+				</div>
+			</div>
+			<div class="span2">
+				<div class="well well-small">
+					<h4>Open-sourse</h4>
+					<%= link_to "view details", 'jersey_path' %>
+				</div>
+			</div>
+			
+</div>
+
+
+	
+
+<marquee direction="up">
+
+<div class="row">
+	<div class="span4">
+	<div class="thumbnail">
+	<h3 style="text-align:center"> New Products</h3>	
+	<%= link_to (image_tag "bag2.PNG", :title => "HandBags" ) , bags_path ,   id: "logo" %>
+	<div class="caption">
+	<h5> Your Website represents you</h5>	
+	<p> <a>
+We are helping you to buy Coupons online..  </a>
+	</p>
+	<a class="pull-right" href="#"></a>
+	<br/>
+	</div>
+	</div>
+	</div>
+	<div class="span4">
+	<div class="thumbnail">
+	<h3 style="text-align:center">Book COupons</h3>	
+<%= link_to (image_tag "bag4.PNG", :title => "HandBags" ) , books_path ,   id: "logo" %>
+
+	<div class="caption">
+	<h5> For any online activities</h5>	
+	<p>
+	
+We are helping you to buy Coupons online.. 
+	</p>
+	<a class="pull-right" href="#"></a>
+	<br/>
+	</div>
+	</div>
+	</div>
+	<div class="span4">
+	<div class="thumbnail">
+	<h3 style="text-align:center">Feature Coupons</h3>	
+	<%= link_to (image_tag "bag3.PNG", :title => "secrh")%> 
+	<div class="caption">
+	<h5>Drive your business in the fast track</h5>	
+	<p>
+	
+We are helping you to buy Coupons online.. 
+	</p>
+	<a class="pull-right" href="#"></a>
+	<br/>
+	</div>
+	</div>
+	</div>
+</div>
+</marquee> 
+<hr/>
+<div class="row">
+	<div class="span6">
+	<div class="well well-small">
+		<h3> What We Do !</h3>	
+		<p>
+		FreeIndiaCoupons.com is a community driven website where shoppers themselves contribute the coupons for other shoppers to save money. We at FreeIndiaCoupons.com validate every coupon submitted by the users and make sure the coupons are working.
+		
+		<br/><br/> In this fast moving&nbsp;eCommerce&nbsp;market, never miss an offer, or let the coupon expire, For latest updated coupons   subscribe to our email newletter to get latest coupons in your email everyday.<br/>
+		</p>
+	</div>
+	</div>
+	<div class="span6">
+	<div class="well well-small">
+		<h3> Customers and Vendors</h3>
+		<h5>Our aim is simple</h5>	
+		<p>
+		"To provide affordable Coupons and discounts for different stuff is our main goal."
+		</p>
+		<strong> Coupon Selling Process:</strong>	
+		<p>
+		It is very simple process to upload your Coupons . Create an account and upload your Coupons. 
+		It will be published on the website, You can track your online activity yourself.
+		
+		</p>
+		
+	</div>
+	</div>
+	
+	<div class="span12">
+	<div class="well well-small">
+	<marquee direction="left">
+		<em>
+		" Dear Custmores Offers are available only from and till to particular dates, Hurry up!!!  
+		<strong>-Coupons</strong>
+		
+		</em>
+</marquee>
+	</div>
+	</div>
+</div>
+<!-- Footer
+      ================================================== -->
+<hr class="soften"/>
+<footer class="footer">
+<p>
+	<span class="pull-right">
+	<a class="btn btn-primary" href="https://twitter.com">t</a> 
+	<a class="btn btn-danger" href="https://plus.google.com/">g+</a> 
+	<a class="btn btn-primary" href=" https://www.facebook.com">f</a> 
+	</span>
+<a href="index.html">Home</a> - 
+<%= link_to "Who we are", about_path %> - 
+
+<a href="webdevelopment.html">What we do?</a> - 
+<%= link_to "Support",   new_path %> -
+
+</p>
+<hr class="soften"/>
+<p>&copy;  <c> www.Onevega.com</c> <br/><br/></p>
+
+
+ </footer>
+</div><!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/js/jquery-1.8.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	</style>
+  
+	
+	
+	
+	</td>
+  </tr>
+</table>
+
+</body>
+</html>

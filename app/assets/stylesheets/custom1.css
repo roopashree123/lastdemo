@@ -1,0 +1,13 @@
+#curvedEdges 
+{ border:10px solid Green;
+	-webkit-border-radius:13px;
+	-moz-border-radius:13px;
+	-ms-border-radius:13px;
+	-o-border-radius:13px;
+	border-radius:30px;
+}
+	#curvedEdges td, #curvedEdges th 
+{ 
+	border-bottom:1px dotted black;
+	padding:15px; 
+}

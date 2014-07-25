@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+<body bgcolor="#9C2662">
+	<table id="bagtable" width="999"  height="900" border="0" bgcolor="#FFFFFF" align="center">
+		<tr>
+			<td valign="top">
+			<td width="1053" height="110" valign="top"><%= link_to (image_tag "logo.PNG", :title => "Logo")  %>
+			<div style="float:right; margin-right:auto;"><span class="style17"><span class="style18"></span></span>	</div>
+
+				<table width="950" height="289" border="0" >
+					<tr>
+						<td width="150" valign="top">
+							
+		 
+						</td>
+						<td width="800" height="250">
+		
+						<center>
+							<table width=85%  BGCOLOR="#000000"">
+								<tr>
+									<td>
+										<td width="900" height="50"> 
+										
+										<marquee behavior="alternate"> 
+											<%= link_to (image_tag "baners.PNG", :title => "baner")%>
+										</marquee>
+									
+											<center>
+												<h2 class="style15"><div class="style1 blok"><strong>Customer Signup</strong></h2>
+												
+										    </center>
+										
+
+										<% provide(:title, 'Sign up') %>
+<h1>Sign up</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@user) do |f| %>
+     <%= render 'shared/error_messages' %>
+	 
+
+      <%= f.label :name %> *
+	  <%= f.text_field :name %>
+
+	  <%= f.label :lastname %>
+
+
+	   <%= f.text_field :lastname %>
+  
+	  <%= f.label :phone %>
+      <%= f.text_field :phone %>
+
+	  <%= f.label :zip %>
+      <%= f.text_field :zip %>
+
+	  <%= f.label :city %>
+      <%= f.text_field :city %>
+
+	  <%= f.label :country %>
+      <%= f.text_field :country %>
+
+	  <%= f.label :state %>
+      <%= f.text_field :state %>
+
+	  <%= f.label :address %>
+      <%= f.text_field :address %>
+
+	 <!-- <%= f.label :date_of_registration %>
+      <%= f.text_field :date_of_registration %> -->
+
+	  <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation %> </br>
+
+     
+
+
+
+
+      <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+</div>
+										
+									</td>
+								</tr>
+							</table>
+						</center>
+					</td>
+  
+
+					<table>	  
+						<tr>
+							<td>
+								<table width="800" border="0">
+									<tr>
+							
+									</tr> 
+									
+								</table>
+							</td>
+						</tr>
+					</table>
+	 
+					<center>
+					<div class="copyright">
+					Copyright &copy; 
+					<a href="http://www.onevega.com" class="white">Onevega</a> 
+					2013. All rights reserved.
+					</div>
+					</center>
+
+			</tr>
+ 
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  category_name: MyString
+  product_name: MyString
+  product_price: 9.99
+  list_price: 9.99
+  user_image: MyString
+  quantity: 9.99
+  description: MyString
+  brief_description: MyText
+  offer_date: 2013-11-19
+  discounts: 9.99
+
+two:
+  category_name: MyString
+  product_name: MyString
+  product_price: 9.99
+  list_price: 9.99
+  user_image: MyString
+  quantity: 9.99
+  description: MyString
+  brief_description: MyText
+  offer_date: 2013-11-19
+  discounts: 9.99
